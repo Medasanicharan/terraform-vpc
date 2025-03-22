@@ -26,7 +26,7 @@ variable instance_tenancy {
 
 variable enable_dns_hostnames {
     type = bool
-    default = "true"
+    default = "false"
 }
 
 variable vpc_tags {
