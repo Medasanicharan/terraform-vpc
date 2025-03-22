@@ -26,7 +26,7 @@ variable instance_tenancy {
 
 variable enable_dns_hostnames {
     type = bool
-    default = "false"
+    default = "true"
 }
 
 variable vpc_tags {
@@ -127,7 +127,7 @@ variable database_route_table_tags {
 
 variable is_peering_required {
     type = bool
-    default = "false"
+    default = "true"
 }
 
 variable acceptor_vpc_id {
