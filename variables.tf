@@ -123,7 +123,6 @@ variable database_route_table_tags {
     default = {}
 }
 
-
 ## peering  ##
 
 variable is_peering_required {
